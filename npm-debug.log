@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'D:\\Jules\\Desktop\\tutoDjangoAngularJs\\thinkster-django-angular-boilerplate',
+6 verbose install   [ 'bower', 'gulp', 'gulp-ng-annotate', 'gulp-uglify' ] ]
+7 info preinstall thinkster_django_angular_boilerplate@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping bower@^1.3.12 D:\Jules\Desktop\tutoDjangoAngularJs\thinkster-django-angular-boilerplate
+10 verbose already installed skipping gulp@^3.8.9 D:\Jules\Desktop\tutoDjangoAngularJs\thinkster-django-angular-boilerplate
+11 verbose already installed skipping gulp-ng-annotate@^0.3.3 D:\Jules\Desktop\tutoDjangoAngularJs\thinkster-django-angular-boilerplate
+12 verbose already installed skipping gulp-uglify@^1.0.1 D:\Jules\Desktop\tutoDjangoAngularJs\thinkster-django-angular-boilerplate
+13 silly resolved []
+14 info build D:\Jules\Desktop\tutoDjangoAngularJs\thinkster-django-angular-boilerplate
+15 verbose linkStuff [ false, false, false, 'D:\\Jules\\Desktop\\tutoDjangoAngularJs' ]
+16 info linkStuff thinkster_django_angular_boilerplate@1.0.0
+17 verbose linkBins thinkster_django_angular_boilerplate@1.0.0
+18 verbose linkMans thinkster_django_angular_boilerplate@1.0.0
+19 verbose rebuildBundles thinkster_django_angular_boilerplate@1.0.0
+20 verbose rebuildBundles [ '.bin', 'bower', 'gulp', 'gulp-ng-annotate', 'gulp-uglify' ]
+21 info install thinkster_django_angular_boilerplate@1.0.0
+22 info postinstall thinkster_django_angular_boilerplate@1.0.0
+23 verbose unsafe-perm in lifecycle true
+24 info thinkster_django_angular_boilerplate@1.0.0 Failed to exec postinstall script
+25 error thinkster_django_angular_boilerplate@1.0.0 postinstall: `./scripts/postInstall.sh`
+25 error Exit status 1
+26 error Failed at the thinkster_django_angular_boilerplate@1.0.0 postinstall script.
+26 error This is most likely a problem with the thinkster_django_angular_boilerplate package,
+26 error not with npm itself.
+26 error Tell the author that this fails on your system:
+26 error     ./scripts/postInstall.sh
+26 error You can get their info via:
+26 error     npm owner ls thinkster_django_angular_boilerplate
+26 error There is likely additional logging output above.
+27 error System Windows_NT 6.2.9200
+28 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+29 error cwd D:\Jules\Desktop\tutoDjangoAngularJs\thinkster-django-angular-boilerplate
+30 error node -v v0.10.35
+31 error npm -v 1.4.28
+32 error code ELIFECYCLE
+33 verbose exit [ 1, true ]
