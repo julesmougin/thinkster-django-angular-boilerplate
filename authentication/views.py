@@ -42,6 +42,8 @@ class AccountViewSet(viewsets.ModelViewSet):
         }, status=status.HTTP_400_BAD_REQUEST)
 
 
+
+
 class LoginView(views.APIView):
     def post(self, request, format=None):
         data = json.loads(request.body)

@@ -29,6 +29,9 @@ class AccountManager(BaseUserManager):
 
         return account
 
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
+
 class Account(AbstractBaseUser):
     email = models.EmailField(unique=True)
     username = models.CharField(max_length=40, unique=True)
